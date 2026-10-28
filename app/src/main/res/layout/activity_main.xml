@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DvXseT PRO"
+            android:textColor="#00D2FF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView android:id="@+id/status" android:text="System Status:"
+            android:textColor="#4682B4" android:layout_marginBottom="12dp" android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/dpiInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input DPI (misal 650)"
+            android:textColor="#0A2540"
+            android:textColorHint="#4682B4"
+            android:inputType="number"
+            android:backgroundTint="#00D2FF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/btnShizuku" android:text="1. Grant Shizuku"
+            android:textColor="#FFF" android:backgroundTint="#4682B4"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnUsage" android:text="2. Grant Usage Access"
+            android:textColor="#FFF" android:backgroundTint="#4682B4"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnStart" android:text="START DPI ENGINE"
+            android:textColor="#FFF" android:backgroundTint="#00D2FF"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+        <Button android:id="@+id/btnStop" android:text="STOP &amp; RESET DPI"
+            android:textColor="#FFF" android:backgroundTint="#FF5555"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#B0E0E6" android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Premium Hacks (Visual Only)"
+            android:textColor="#FFAA00"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button android:id="@+id/btnHook" android:text="Hook FF (Bypass)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnAimbot" android:text="Auto Headshot Aimbot" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnEsp" android:text="Wallhack / ESP Line" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        
+        <Button android:id="@+id/btnReset" android:text="Force Reset System"
+            android:backgroundTint="#EEEEEE" android:textColor="#0A2540"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
